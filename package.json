@@ -1,0 +1,20 @@
+{
+  "name": "web-playground",
+  "version": "1.0.0",
+  "description": "web playground for test",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server \"public\" --files \"public\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "html5",
+    "css3"
+  ],
+  "author": "colin",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}
